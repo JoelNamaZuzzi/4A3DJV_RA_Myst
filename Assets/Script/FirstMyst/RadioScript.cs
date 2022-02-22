@@ -19,9 +19,9 @@ public class RadioScript : MonoBehaviour
         Audio.Play();
     }
     
-    void Update()
+    public void OnChangeKnobValue(int k)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (k>5 && k<=6)
         {
             Audio.Stop();
             Audio.clip = SomeTalk;
