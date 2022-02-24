@@ -19,9 +19,10 @@ public class RadioScript : MonoBehaviour
         Audio.Play();
     }
     
-    public void OnChangeKnobValue(int k)
+    public void OnChangeKnobValue(float k)
     {
-        if (k>5 && k<=6)
+        Debug.Log(k);
+        if (k>0.8f && k<=0.9f)
         {
             Audio.Stop();
             Audio.clip = SomeTalk;
