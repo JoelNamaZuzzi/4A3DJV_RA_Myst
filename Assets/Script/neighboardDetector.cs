@@ -15,7 +15,7 @@ public class neighboardDetector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (info && !info.enabled)
+        if (info && !info.gameObject.activeSelf)
         {
             info = null;
         }

@@ -19,12 +19,24 @@ public class neighboardManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (checkNeighboards())
+        if (isAllEnable())
         {
-            Debug.Log("Objet bien placer");
-            ReussiteFeedBack();
+            if (checkNeighboards())
+            {
+                ReussiteFeedBack();
+            }
+            else ResetProperties();
         }
         else ResetProperties();
+    }
+
+    private bool isAllEnable()
+    {
+        foreach (neighboard voisin in neighboards)
+        {
+            if (!voisin.gameObject.activeSelf) return false;
+        }
+        return true;
     }
 
     private bool checkNeighboards()
@@ -60,7 +72,6 @@ public class neighboardManager : MonoBehaviour
         {
             return false;
         }
-        Debug.Log("bienPlacer");
         return true;
     }
 

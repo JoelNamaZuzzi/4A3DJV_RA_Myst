@@ -24,5 +24,10 @@ public class neighboard : MonoBehaviour
         voisinDeDroite = detecteurDroite.info;
         voisinDeGauche = detecteurGauche.info;
     }
-    
+
+    private void OnDisable()
+    {
+        detecteurGauche.info = null;
+        detecteurDroite.info = null;
+    }
 }
