@@ -22,10 +22,16 @@ public class RadioScript : MonoBehaviour
     public void OnChangeKnobValue(float k)
     {
         Debug.Log(k);
-        if (k>0.8f && k<=0.9f)
+        if (k>=0.8f && k<0.85f)
         {
             Audio.Stop();
             Audio.clip = SomeTalk;
+            Audio.Play();
+        }
+        else if (Audio.clip != Noise)
+        {
+            Audio.Stop();
+            Audio.clip = Noise;
             Audio.Play();
         }
     }

@@ -8,7 +8,7 @@ public class touchscreenscript : MonoBehaviour
     public Camera cam;
     
     void Update () {
-        //Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began
+        //if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         if (Input.GetMouseButtonDown(0))
         {
             //Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
