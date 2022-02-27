@@ -15,6 +15,9 @@ public class Gogole_button : MonoBehaviour
     private GameObject search_content;
     
     [SerializeField]
+    private GameObject open_button;
+    
+    [SerializeField]
     private GameObject searchField;
     
     [SerializeField]
@@ -61,6 +64,7 @@ public class Gogole_button : MonoBehaviour
     {
         Debug.Log("Quit");
         site_canvas.SetActive(false);
+        open_button.SetActive(true);
     }
 
     public void Search()
@@ -83,6 +87,7 @@ public class Gogole_button : MonoBehaviour
     public void openSite(){
         Debug.Log("Open");
         site_canvas.SetActive(true);
+        open_button.SetActive(false);
     }
 
     public void backButton()
