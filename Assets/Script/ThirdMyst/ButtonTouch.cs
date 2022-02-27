@@ -28,12 +28,12 @@ public class ButtonTouch : MonoBehaviour
     public AudioClip Suceed;
     void Update()
     {
-        //if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
-        if (Input.GetMouseButtonDown(0))
+        if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+        //if (Input.GetMouseButtonDown(0))
         {
-            //Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            //Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit Hit;
             if (Physics.Raycast(ray, out Hit))
             {
