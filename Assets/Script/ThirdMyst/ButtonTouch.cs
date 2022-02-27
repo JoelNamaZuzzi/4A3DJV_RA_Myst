@@ -23,6 +23,9 @@ public class ButtonTouch : MonoBehaviour
     public GameObject Light3;
 
     public GameObject Indice;
+
+    public AudioClip btnClic;
+    public AudioClip Suceed;
     void Update()
     {
         //if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
@@ -30,8 +33,8 @@ public class ButtonTouch : MonoBehaviour
         {
             //Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 
-            RaycastHit Hit;
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit Hit;
             if (Physics.Raycast(ray, out Hit))
             {
                 buttonName = Hit.transform.name;
@@ -40,29 +43,35 @@ public class ButtonTouch : MonoBehaviour
                     case ("Button1"):
                         Debug.Log("bite");
                         b1=ARButtonClick(Hit, 5, b1);
+                        AudioSource.PlayClipAtPoint(btnClic, Hit.transform.position);
                         Light1.SetActive(!Light1.activeSelf);
                         break;
                     case ("Button2"):
                         b2=ARButtonClick(Hit, 10, b2);
+                        AudioSource.PlayClipAtPoint(btnClic, Hit.transform.position);
                         Light1.SetActive(!Light1.activeSelf);
                         Light3.SetActive(!Light3.activeSelf);
                         break;
                     case ("Button3"):
                         b3=ARButtonClick(Hit, 15, b3);
+                        AudioSource.PlayClipAtPoint(btnClic, Hit.transform.position);
                         Light2.SetActive(!Light2.activeSelf);
                         Light3.SetActive(!Light3.activeSelf);
                         break;
                     case ("Button4"):
                         b4=ARButtonClick(Hit, 20, b4);
+                        AudioSource.PlayClipAtPoint(btnClic, Hit.transform.position);
                         Light1.SetActive(!Light1.activeSelf);
                         Light2.SetActive(!Light2.activeSelf);
                         break;
                     case ("Button5"):
                         b5=ARButtonClick(Hit, 25, b5);
+                        AudioSource.PlayClipAtPoint(btnClic, Hit.transform.position);
                         Light2.SetActive(!Light2.activeSelf);
                         break;
                     case ("Button6"):
                         b6=ARButtonClick(Hit, 30, b6);
+                        AudioSource.PlayClipAtPoint(btnClic, Hit.transform.position);
                         Light3.SetActive(!Light3.activeSelf);
                         break;
                 }
@@ -70,6 +79,7 @@ public class ButtonTouch : MonoBehaviour
                 if(Light1.activeSelf && Light2.activeSelf && Light3.activeSelf)
                 {
                     Indice.GetComponent<Renderer>().material = IndiceMat;
+                    AudioSource.PlayClipAtPoint(Suceed, Indice.transform.position);
                 }
                 
                 

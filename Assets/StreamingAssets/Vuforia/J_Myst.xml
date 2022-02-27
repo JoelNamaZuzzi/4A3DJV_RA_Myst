@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Syl4-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="Syl3-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="Syl2-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="Syl1-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="mysterious_object-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="Radio2-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="ButtonPannel-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="Light_3-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="Light_2-compressed" size="0.070000 0.096523" />
+    <ImageTarget name="Light-compressed" size="0.070000 0.096523" />
+  </Tracking>
+</QCARConfig>
