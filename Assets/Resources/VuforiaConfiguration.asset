@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QVRkUE5ETC8vLy8vQUFBQUtOcnE3eUJwSGt2ZG82ZmNYaGtWeEYwOGZxTk9EMVdyRG1BOWhYWEprVElFSGo1MEMwOHVJZjRwYnhqUFcyeG42WGN6T1pINkZnYkRQRTZFNVEvSFc0SmYxeUJjeCt5SWRTd2dnQmkwV1JXN2VxZENOVUlZN0lZczFyOVQrWGg0ZDZsbjBXaFBnQ2FDL1RPZzJONnJxbDRXem1FL3NJQ3hXRnR1eTFicW13TVVxOURUcExXejRyNTJOOGM1QnRIWFFITUcyKzJYUEF5bEhjVkhjU0NYTHBxQ1p6VjM0aUx6V3RVSTViT3FOU2Y2eURrRjY3eWh3bnZaYmVUU1BPSUd5MjdJTUpjclIzMFg4cXZBK3A3NEx6OThUWXBvMHBIckhKSFdoZ0pCZHpLVzBNOGZ1OVd3bURwSkxMUURXTDZtenE0ekhrdnU3SDlPQVZZOS80N2kxOFVCZzI5TE15aFcvejFpY3RDN3lJaGs=
+    vuforiaLicenseKey: AUNqOF3/////AAABmSE6wg1Uf0eeundrTHonaYqCyrK0MUioDqZ7qSWHscsdAILRcmpTSSj+RLOFB/+TmQvPohB6P1EhuxzZKD8VX3SR5VAJodLQTlmMak6r4ZpHI6mUN5llFY6B2a9Dg5CGHDALxOVDNnSDxdOkYELLekFDcQG57aYGMkFxRHJUCC+7rDJNw/1Q1adf00k9BW5VGi7t7EKwM6dsgu7AjGClqit6UqO5C5gcJyNFGiYIPoAHUwVb/1h1XZnU9tzpICoMRQBYjhe2j/WqupCKRUpHBtBSJ443agodJhFa5fiXNBozHjHlzmsx95p0XeyZxDUQhZEi9/FOQ+ebYWwTWjGgC4kbZO+jT6H1MQCW4iX0eDwH
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -24,8 +24,8 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
-    version: 10.0.2
-    eulaAcceptedVersions: '{"Values":["","0.0","10.5"]}'
+    version: 10.5.5
+    eulaAcceptedVersions: '{"Values":["","0.0","10.5","10.2","10.3"]}'
   database:
     disableModelExtraction: 0
   shaders:
