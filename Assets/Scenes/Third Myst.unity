@@ -1176,7 +1176,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: eb52feda1f804ec5902edcfb3192c491, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0a2172025c1e4f689607087218a92f32, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2411,7 +2411,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 26dfe42b195d494fab70a9e3d0262df8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9ab0da903649409383bb2b2b156447b4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2440,7 +2440,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f0ff722c55e74bcc8e6cc8836145ebf6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6944b47b299549bdae2bf020eb5ea36c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2469,7 +2469,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 14a8af668c064f57beb0a26eb8420b7e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5242604b9e7a4aa9a7b14ed21c37b323, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -2662,7 +2662,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 31b89853cca84e46b21f2ae811af6030, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7d35841affc34fe88483de741ababf9d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -3162,6 +3162,8 @@ MonoBehaviour:
   Light2: {fileID: 1123333498}
   Light3: {fileID: 1187385764}
   Indice: {fileID: 1681187954}
+  btnClic: {fileID: 8300000, guid: ed128b8abcb26c546bd69664074c53ab, type: 3}
+  Suceed: {fileID: 8300000, guid: 018a6a70fdc5e3d4e831d40309dda465, type: 3}
 --- !u!33 &1904631392
 MeshFilter:
   m_ObjectHideFlags: 0
