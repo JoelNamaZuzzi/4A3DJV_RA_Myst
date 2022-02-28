@@ -10,6 +10,8 @@ public class neighboardManager : MonoBehaviour
 
     public Material couleurReussite;
     public Material couleurBase;
+
+    [SerializeField] private GameObject canvasNext;
     // Start is called before the first frame update
     void Start()
     {
@@ -80,6 +82,7 @@ public class neighboardManager : MonoBehaviour
         foreach(neighboard voisin in neighboards)
         {
             voisin.GetComponent<Renderer>().material = couleurReussite;
+            canvasNext.SetActive(true);
         }
 
     }

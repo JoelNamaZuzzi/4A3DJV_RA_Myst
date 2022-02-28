@@ -71,7 +71,7 @@ public class Gogole_button : MonoBehaviour
     {
         SearchText = searchField.GetComponent<TMP_InputField>().text;
         
-        if (SearchText.Equals("test"))
+        if (SearchText.Equals("chronometre"))
         {
             Debug.Log("ok");
             site_canvas.SetActive(false);
