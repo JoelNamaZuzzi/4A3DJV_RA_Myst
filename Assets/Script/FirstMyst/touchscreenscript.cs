@@ -9,7 +9,7 @@ public class touchscreenscript : MonoBehaviour
     
     void Update () {
         if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
-            //if (Input.GetMouseButtonDown(0))
+        //if (Input.GetMouseButtonDown(0))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 
@@ -25,6 +25,7 @@ public class touchscreenscript : MonoBehaviour
                         break;
                     case ("face2"):
                         Debug.Log("Bite! 2");
+                        Handheld.Vibrate();
                         break;
                     case ("face3"):
                         Debug.Log("Bite! 3");
