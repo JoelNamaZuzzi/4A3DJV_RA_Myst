@@ -13,6 +13,8 @@ public class neighboardManager4 : MonoBehaviour
 
     [SerializeField] private GameObject canvasNext;
     [SerializeField] private GameObject canvasButton;
+
+    private bool test = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -81,7 +83,12 @@ public class neighboardManager4 : MonoBehaviour
     private void ReussiteFeedBack()
     {
         Debug.Log("Yes");
-        canvasButton.SetActive(true);
+        if (test == false)
+        {
+            canvasButton.SetActive(true);
+            test = true;
+        }
+        
     }
 
     private void ResetProperties()
