@@ -7,6 +7,8 @@ public class RadioScript : MonoBehaviour
     private AudioSource Audio;
     public AudioClip Noise;
     public AudioClip SomeTalk;
+
+    [SerializeField] private GameObject canvas;
     
     void Awake()
     {
@@ -27,6 +29,7 @@ public class RadioScript : MonoBehaviour
             Audio.Stop();
             Audio.clip = SomeTalk;
             Audio.Play();
+            canvas.SetActive(true);
         }
         else if (Audio.clip != Noise)
         {

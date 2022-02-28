@@ -26,6 +26,8 @@ public class ButtonTouch : MonoBehaviour
 
     public AudioClip btnClic;
     public AudioClip Suceed;
+
+    [SerializeField] private GameObject canvas;
     void Update()
     {
         if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
@@ -80,6 +82,7 @@ public class ButtonTouch : MonoBehaviour
                 {
                     Indice.GetComponent<Renderer>().material = IndiceMat;
                     AudioSource.PlayClipAtPoint(Suceed, Indice.transform.position);
+                    canvas.SetActive(true);
                 }
                 
                 

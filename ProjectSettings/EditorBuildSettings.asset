@@ -5,13 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 102e8f9ccf1526f49836a62e8f116049
   - enabled: 1
     path: Assets/Scenes/FirstMyst.unity
     guid: 9800d5abfe782194996cd2a95a658297
   - enabled: 1
+    path: Assets/Scenes/Enigme2.unity
+    guid: 4b2aa99d1c9cd9549a93e2861a7b842d
+  - enabled: 1
     path: Assets/Scenes/Third Myst.unity
     guid: 0ebee35840fdc004da291c9bfcb6872c
+  - enabled: 1
+    path: Assets/Scenes/Enigme.unity
+    guid: e9e8913eee38ffe46b2d2f6818f14331
   m_configObjects: {}
