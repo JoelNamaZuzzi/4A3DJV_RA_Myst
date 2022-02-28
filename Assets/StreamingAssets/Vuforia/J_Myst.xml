@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
+        <ImageTarget name="Sun_2-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM14-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM6-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM5-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM4-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM3-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM2-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM1-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="MM15-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="Mysterious_marq-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="flowers-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="winter-compressed" size="0.070000 0.096523"/>
+        <ImageTarget name="dead_leaves-compressed" size="0.070000 0.096523"/>
         <ImageTarget name="Dream_TradingCard_2" size="0.070000 0.124567"/>
         <ImageTarget name="Talkie-compressed" size="0.070000 0.096523"/>
         <ImageTarget name="Syl4-compressed" size="0.070000 0.096523"/>
@@ -13,12 +26,12 @@
         <ImageTarget name="Light_3-compressed" size="0.070000 0.096523"/>
         <ImageTarget name="Light_2-compressed" size="0.070000 0.096523"/>
         <ImageTarget name="Light-compressed" size="0.070000 0.096523"/>
-        <ImageTarget name="Cube_Myst1.Left" size="0.070000 0.070000"/>
-        <ImageTarget name="Cube_Myst1.Bottom" size="0.070000 0.070000"/>
-        <ImageTarget name="Cube_Myst1.Back" size="0.070000 0.070000"/>
         <ImageTarget name="Cube_Myst1.Front" size="0.070000 0.070000"/>
         <ImageTarget name="Cube_Myst1.Top" size="0.070000 0.070000"/>
         <ImageTarget name="Cube_Myst1.Right" size="0.070000 0.070000"/>
+        <ImageTarget name="Cube_Myst1.Back" size="0.070000 0.070000"/>
+        <ImageTarget name="Cube_Myst1.Bottom" size="0.070000 0.070000"/>
+        <ImageTarget name="Cube_Myst1.Left" size="0.070000 0.070000"/>
         <MultiTarget name="Cube_Myst1">
             <Part name="Cube_Myst1.Left" translation="-0.03500000014901161 0 0" rotation="AD: 0 1 0 -90"/>
             <Part name="Cube_Myst1.Right" translation="0.03500000014901161 0 0" rotation="AD: 0 1 0 90"/>
