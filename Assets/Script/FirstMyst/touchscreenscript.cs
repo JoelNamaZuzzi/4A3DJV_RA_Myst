@@ -21,23 +21,17 @@ public class touchscreenscript : MonoBehaviour
                 switch (facename)
                 {
                     case ("face1"):
-                        Debug.Log("Bite! 1");
                         break;
                     case ("face2"):
-                        Debug.Log("Bite! 2");
                         Handheld.Vibrate();
                         break;
                     case ("face3"):
-                        Debug.Log("Bite! 3");
                         break;
                     case ("face4"):
-                        Debug.Log("Bite! 4");
                         break;
                     case ("face5"):
-                        Debug.Log("Bite! 5");
                         break;
                     case ("face6"):
-                        Debug.Log("Bite! 6");
                         break;
 
                 }
