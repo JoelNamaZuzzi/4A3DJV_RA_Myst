@@ -6,6 +6,7 @@ public class TalkyScript : MonoBehaviour
 {
     private AudioSource Audio;
     public AudioClip story;
+    public GameObject NextCanvas;
     void Awake()
     {
         Audio = GetComponent<AudioSource>();
@@ -13,5 +14,6 @@ public class TalkyScript : MonoBehaviour
     
     public void PlayStory(){
         Audio.PlayOneShot(story);
+        NextCanvas.SetActive(true);
     }
 }

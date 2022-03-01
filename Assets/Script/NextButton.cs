@@ -7,7 +7,7 @@ public class NextButton : MonoBehaviour
 {
     public void Next()
     {
-        Debug.Log("Next");
+        Debug.Log(SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
